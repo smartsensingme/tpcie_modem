@@ -1,0 +1,37 @@
+# ==========================================
+# ESP-IDF
+# ==========================================
+# Diretório de compilação (binários, CMake cache, arquivos objeto)
+build/
+
+# Componentes gerenciados pelo IDF Component Registry (baixados automaticamente)
+managed_components/
+
+# Backups automáticos de configuração do menuconfig
+sdkconfig.old
+
+# ==========================================
+# VS Code / IDE
+# ==========================================
+# Configurações locais do editor (geralmente contêm caminhos absolutos da sua máquina)
+.vscode/
+
+# ==========================================
+# Sistema Operacional (macOS / Linux)
+# ==========================================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+*~
+*.swp
+
+# ==========================================
+# Python (Caso crie scripts auxiliares)
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
